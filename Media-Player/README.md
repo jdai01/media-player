@@ -6,6 +6,8 @@ This project is a practical exercise focused on developing a fully functional me
 The application provides an intuitive interface with a searchable and sortable playlist, along with essential audio controls (play, pause, stop). 
 The media player supports various audio file formats and includes features for reading and handling metadata such as tags (ID3, Vorbis comments) and file properties (e.g., RIFF WAVE).
 
+![Media Player](display.png)
+
 ## Features
 
 ### Core Functionality:
