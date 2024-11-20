@@ -1,0 +1,15 @@
+# General ignore
+*.log
+*.DS_Store
+
+# Ignore .metadata folder
+.metadata/
+
+# Ignore javafx (non-essentials)
+*.zip
+*.dylib
+*.properties
+javafx-sdk-22.0.1/legal
+
+# Ignore log in Media-Player
+/Media-Player/org.eclipse.m2e.logback/
