@@ -23,9 +23,9 @@ A graphical user interface (GUI) will be implemented to provide seamless control
 ## Project Set Up
 1. Clone the repository:
 
-```bash
-git clone https://github.com/jdai01/CAI_Prog2
-```
+    ```bash
+    git clone https://github.com/jdai01/CAI_Prog2Pr
+    ```
 
 2. Setup Java Project in Eclipse IDE, i.e. create Java project "Media-Player"
 
@@ -33,4 +33,4 @@ git clone https://github.com/jdai01/CAI_Prog2
 
 4. [Configure JavaFX Setup on project](../config/javafx-setup.md)
 
-5. Go to `src/studiplayer/ui/` and run `Player.java`
+5. Go to [`src/studiplayer/ui/`](src/studiplayer/ui/) and run `Player.java`
