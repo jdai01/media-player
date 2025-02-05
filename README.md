@@ -1,20 +1,36 @@
-# Programming 2 (Java) Practical
+# Media Player
 
 ## Overview
 
-This course provides a comprehensive introduction to object-oriented programming and algorithmic problem-solving using Java. 
-It covers essential programming concepts, including classes, objects, methods, inheritance, and polymorphism, as well as dynamic data structures such as linked lists, hash tables, and trees.
+This project focuses on developing a fully functional media player for playing audio files. 
+The application provides an intuitive interface with a searchable and sortable playlist, along with essential audio controls (play, pause, stop). 
+The media player supports various audio file formats and includes features for reading and handling metadata such as tags (ID3, Vorbis comments) and file properties (e.g., RIFF WAVE).
 
-The curriculum includes advanced topics like interface definition, exception handling, generics, and lambda expressions. 
-Graphical user interface development with JavaFX is also explored, alongside parallel programming using threads. 
-Testing is integrated through the use of the JUNIT framework, ensuring the correctness of implemented functionalities.
+![Media Player](display.png)
+
+## Features
+
+### Core Functionality:
+- **Audio Playback**: Plays various audio formats like MP3, OggVorbis, and WAVE.
+- **Playlist Management**: Create, load, and manage playlists in M3U format.
+- **Metadata Handling**: Display and manage metadata from audio files, including ID3 tags and Vorbis comments.
+- **Search and Sort**: Filter and sort the playlist by album, author, title, and duration.
+
+### User Interface:
+A graphical user interface (GUI) will be implemented to provide seamless control over all the developed functionalities, including playlist management, playback control, sorting, and search filtering.
 
 
-## Projects
-- [Media Player](Media-Player/README.md)
+## Project Set Up
+1. Clone the repository:
 
+    ```bash
+    git clone https://github.com/jdai01/media-player
+    ```
 
+2. Setup Java Project in Eclipse IDE, i.e. create Java project "media-player"
 
-#### Skills learnt:
-![Java](https://img.shields.io/badge/Java-blue?logo=java)
-![Eclipse IDE](https://img.shields.io/badge/Eclipse_IDE-%232C2255?logo=eclipseide)
+3. [Adding JAR Libraries to the Classpath in Eclipse](config/add-jar-lib.md)
+
+4. [Configure JavaFX Setup on project](config/javafx-setup.md)
+
+5. Go to [`src/studiplayer/ui/`](src/studiplayer/ui/) and run `Player.java`

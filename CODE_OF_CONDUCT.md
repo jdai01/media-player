@@ -1,6 +1,6 @@
 # Academic Honesty Policy
 
-This repository is associated with the course **Programming 2**, offered by **Technische Hochschule Ingolstadt**.
+This repository is associated with the course **Programming 2 Practical**, offered by **Technische Hochschule Ingolstadt**.
 
 This repository is intended for educational and learning purposes. 
 You are welcome to view and learn from the code provided. 
